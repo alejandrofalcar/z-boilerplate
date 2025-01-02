@@ -16,6 +16,7 @@ export default function Home() {
 		<div>
 			{!session?.user ? (
 				<button
+					type="button"
 					onClick={async () => {
 						await signIn.social({
 							provider: "google",
@@ -26,6 +27,7 @@ export default function Home() {
 				</button>
 			) : (
 				<button
+					type="button"
 					onClick={async () => {
 						await authClient.signOut();
 						navigation.reload();
