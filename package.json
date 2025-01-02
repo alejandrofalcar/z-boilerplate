@@ -6,7 +6,9 @@
 		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
-		"check": "biome check --write ./src"
+		"check": "biome check --write ./src",
+		"generate": "prisma generate",
+		"migrate": "prisma migrate dev"
 	},
 	"dependencies": {
 		"@prisma/client": "^6.1.0",
