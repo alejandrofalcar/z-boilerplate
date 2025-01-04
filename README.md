@@ -14,7 +14,6 @@ Contains:
 - React Query
 - Zod
 - Better Auth
-- Postgres
 
 ## Getting Started
 
